@@ -1,8 +1,8 @@
 from glitch_ctrl import GlitchController, TriggerConfiguration
 from dut import DuT
 
-WIDTH_BEGIN = 18
-WIDTH_END = 19
+WIDTH_BEGIN = 14
+WIDTH_END = 15
 
 OFFSET_BEGIN = 2000
 OFFSET_END = 4000
