@@ -1,8 +1,8 @@
 from glitch_ctrl import GlitchController, TriggerConfiguration
 from dut import DuT
 
-WIDTH_BEGIN = 14
-WIDTH_END = 15
+WIDTH_BEGIN = 3
+WIDTH_END = 4
 
 OFFSET_BEGIN = 2000
 OFFSET_END = 4000
@@ -11,7 +11,6 @@ FLG = 1
 dut = DuT()
 dut.reset()
 glitcher = GlitchController()
-glitcher.reset()
 edge = TriggerConfiguration.TRIGGER_EXTERNAL_RISING_EDGE
 text = []
 
