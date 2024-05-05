@@ -1,3 +1,8 @@
+"""
+Verify the glitcher with the obtained combinaiton of offset and width.
+But sometimes it won't work even if the offset and width are correct.
+"""
+
 from glitch_ctrl import GlitchController, TriggerConfiguration
 from dut import DuT
 

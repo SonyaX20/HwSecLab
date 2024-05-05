@@ -1,3 +1,8 @@
+"""
+Use the "S" operation to test the glitcher.
+Collect data to characterize VFI.
+"""
+
 from glitch_ctrl import GlitchController, TriggerConfiguration
 from dut import DuT
 from time import sleep
