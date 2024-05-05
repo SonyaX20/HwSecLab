@@ -5,7 +5,9 @@
 //---- Top entity
 module main (
  input v49fe0a,
+ input vee77da,
  output v5da4b6,
+ output v0e9b3b,
  output [0:4] vinit
 );
  wire w0;
@@ -21,18 +23,36 @@ module main (
  wire w10;
  wire w11;
  wire w12;
+ wire w13;
+ wire w14;
+ wire w15;
+ wire w16;
+ wire w17;
  assign w11 = v49fe0a;
  assign v5da4b6 = w12;
+ assign w13 = vee77da;
+ assign w14 = vee77da;
+ assign w15 = vee77da;
+ assign w16 = vee77da;
+ assign v0e9b3b = w17;
+ assign w14 = w13;
+ assign w15 = w13;
+ assign w15 = w14;
+ assign w16 = w13;
+ assign w16 = w14;
+ assign w16 = w15;
  vf06659 v973252 (
   .vcf85e9(w7),
   .va7581c(w8),
-  .v02b0bb(w11)
+  .v02b0bb(w11),
+  .vcc8b27(w14)
  );
  v1e9d5d vb88b45 (
   .v6407b1(w0),
   .v2a8982(w1),
   .v7d46e8(w9),
-  .v0850a4(w12)
+  .v0850a4(w12),
+  .vb6afa8(w16)
  );
  va596a2 v289d7a (
   .vc367c8(w2),
@@ -40,7 +60,9 @@ module main (
   .vf6e261(w4),
   .v234140(w5),
   .v379aae(w6),
-  .v5cffb0(w10)
+  .v5cffb0(w10),
+  .va451df(w15),
+  .vb1faa8(w17)
  );
  v34e687 v2cf542 (
   .vda0439(w0),
@@ -53,7 +75,8 @@ module main (
   .vc6ea6a(w7),
   .va62987(w8),
   .v2d34ca(w9),
-  .ve09ece(w10)
+  .ve09ece(w10),
+  .v94c1e6(w13)
  );
  assign vinit = 5'b00000;
 endmodule
