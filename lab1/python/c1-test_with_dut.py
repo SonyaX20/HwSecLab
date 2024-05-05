@@ -1,3 +1,6 @@
+"""
+Try with simple operation like "A" to test the dut
+"""
 from dut import DuT
 from time import sleep
 import time

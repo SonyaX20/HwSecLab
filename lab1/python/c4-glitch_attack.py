@@ -1,3 +1,7 @@
+"""
+Try all possible combinations of offset and width
+"""
+
 from glitch_ctrl import GlitchController, TriggerConfiguration
 from dut import DuT
 

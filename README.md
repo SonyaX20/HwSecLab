@@ -26,3 +26,6 @@ Ask about their authorization status (AUTHORIZED, UNAUTHORIZED)
 get owners' seed-phradea
 takes place via 
 RS233 (UART) 
+
+[youtube](https://www.youtube.com/watch?v=6Pf3pY3GxBM&t=101s) <br>
+[file](https://www.synacktiv.com/publications/how-to-voltage-fault-injection)

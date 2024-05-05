@@ -1,3 +1,2 @@
-__pycache__/
-sum_json/
-test.py
+*/__pycache__/
+*/sum_json/

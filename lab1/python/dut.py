@@ -7,8 +7,8 @@ class DuT(object):
 	CMD_WHOAMI                	= b'W'
 	CMD_AUTHORIZE             	= b'A'
 	CMD_READ_SECURE_MEMORY    	= b'R'
-	CMD_PING										= b'P'
-	CMD_SUM										= b'S'
+	CMD_PING					= b'P'
+	CMD_SUM						= b'S'
 
 	VENDOR_ID 									= 0x2341
 	PRODUCT_ID 									= 0x0001
